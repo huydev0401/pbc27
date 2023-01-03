@@ -241,6 +241,53 @@
     borderPulse 1000ms infinite ease-out;
 }
 
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+}
+
+.player {
+  transition: all 0.2s ease-in;
+  &:hover {
+    transform: scale(1.08);
+  }
+}
+
+.video {
+  &-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    .wrapper {
+      position: relative;
+      border: 5px solid white;
+      width: fit-content;
+      .frame {
+        iframe {
+          width: 956px;
+          height: 530px;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    &-popup {
+      .wrapper {
+        .frame {
+          iframe {
+            width: 320px;
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 940px) {
   .nav-menu {
     z-index: 999;

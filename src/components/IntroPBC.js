@@ -1,6 +1,8 @@
 import React from "react";
+import { usePopup } from "../contexts/popupContext";
 
 export default function IntroPBC() {
+  const { setShowVideo } = usePopup();
   return (
     <section className="bg-black py-section">
       <div className="page-container border border-lightBlue2 rounded-[12px] p-[36px] flex-col md:flex-row flex gap-[20px] md:gap-[40px] mx-[15px] md:mx-auto items-center">
@@ -11,7 +13,12 @@ export default function IntroPBC() {
             alt=""
           />
           <span className="cursor-pointer inline-flex absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <img srcSet="/icons/player-icon.png 2x" alt="" />
+            <img
+              className="player"
+              onClick={() => setShowVideo(true)}
+              srcSet="/icons/player-icon.png 2x"
+              alt=""
+            />
           </span>
         </div>
         <div className="flex-1 text-justify text-white md:text-left">

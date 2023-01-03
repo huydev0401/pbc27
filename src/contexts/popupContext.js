@@ -8,6 +8,7 @@ function PopupProvider(props) {
   const [showGold, setShowGold] = useState(false);
   const [showMember, setShowMember] = useState(false);
   const [showStandard, setShowStandard] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
   const value = {
     show,
     setShow,
@@ -19,6 +20,8 @@ function PopupProvider(props) {
     setShowMember,
     showStandard,
     setShowStandard,
+    showVideo,
+    setShowVideo,
   };
   return (
     <PopupContext.Provider value={value} {...props}></PopupContext.Provider>

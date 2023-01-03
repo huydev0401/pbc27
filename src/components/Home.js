@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PopupProvider } from "../contexts/popupContext";
 import Active from "./Active";
 import Coach from "./Coach";
@@ -9,6 +9,7 @@ import PopupGold from "./commons/PopupGold";
 import PopupMember from "./commons/PopupMember";
 import PopupRegister from "./commons/PopupRegister";
 import PopupStandard from "./commons/PopupStandard";
+import VideoPopup from "./commons/VideoPopup";
 import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
@@ -17,8 +18,13 @@ import Place from "./Place";
 import Scale from "./Scale";
 import Ticket from "./Ticket";
 import Why from "./Why";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <PopupProvider>
@@ -39,6 +45,7 @@ export default function Home() {
         <PopupGold></PopupGold>
         <PopupMember></PopupMember>
         <PopupStandard></PopupStandard>
+        <VideoPopup></VideoPopup>
       </PopupProvider>
     </>
   );

@@ -78,9 +78,9 @@ export default function Coach() {
   );
 }
 
-const CoachItem = ({ img, nickname, name }) => {
+const CoachItem = ({ img, nickname, name, ...props }) => {
   return (
-    <div>
+    <div {...props}>
       <div className="mb-[20px]">
         <img className="object-cover w-full h-full" src={img} alt="" />
       </div>
