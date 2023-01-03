@@ -103,7 +103,7 @@ const PopupMember = () => {
                 <span className="text-[24px]">ĐĂNG KÝ</span> <br /> THAM GIA
                 CHƯƠNG TRÌNH <br />{" "}
                 <span className="text-[32px] md:text-[32px] text-[#CE153F]">
-                  PLANNING BOOTCAMP 26
+                  PLANNING BOOTCAMP 27
                 </span>
               </h3>
               <div>

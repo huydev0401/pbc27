@@ -9,7 +9,7 @@ export default function Coach() {
     >
       <div className="page-container">
         <Heading>
-          CÁC NHÀ HUẤN LUYỆN DOANH NGHIỆP TẠI <br /> PLANNING BOOTCAMP 26
+          CÁC NHÀ HUẤN LUYỆN DOANH NGHIỆP TẠI <br /> PLANNING BOOTCAMP 27
         </Heading>
         <div className="coach-list grid-cols-2 grid md:grid-cols-5 gap-[25px] mt-[50px]">
           <CoachItem
