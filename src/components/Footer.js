@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="footer pt-sectionMB md:pb-[80px] pb-[150px]">
-      <div className="flex flex-col justify-between md:flex-row page-container text-white">
-        <div className="">
+      <div className="flex flex-col justify-between text-white md:flex-row page-container">
+        <div>
           <img srcSet="/images/logo-footer.png 2x" alt="" />
           <p className="text-justify">
             ActionCOACH là thương hiệu huấn luyện doanh{" "}
@@ -27,12 +27,11 @@ const Footer = () => {
             Firm Huấn luyện doanh nghiệp số <br /> 1 Việt Nam
           </p>
           <p className="text-[18px] mb-[10px]">
-            Địa chỉ: <span className="font-semibold">CBD BUILDING</span>, 90-92{" "}
-            <br /> Lê Thị Riêng, <br />
-            P. Bến Thành, Q.1, TP.HCM
+            Địa chỉ: Tầng 15 Tháp B Tòa nhà Viettel, <br /> 285 Cách Mạng Tháng
+            Tám, Phường 12, <br /> Quận 10, Tp. Hồ Chí Minh
           </p>
           <p className="text-[18px] mb-[10px]">
-            Email: <br /> info@actioncoachcbd.com
+            Email: info@actioncoachcbd.com
           </p>
           <p className="text-[18px] mb-[10px]">
             Hotline: <span className="font-semibold">1800 8087 (phím 4)</span>
