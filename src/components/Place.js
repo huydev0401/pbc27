@@ -5,7 +5,7 @@ export default function Place() {
   return (
     <section
       id="place"
-      className="bg-[url('../public/images/place-bg.png')] bg-center-top bg-no-repeat bg-cover pt-section md:pb-[130px] pb-[100px]"
+      className="bg-[url('../public/images/place-bg.png')] bg-center bg-no-repeat bg-cover pt-section md:pb-[130px] pb-[80px]"
     >
       <div className="text-center page-container">
         <Heading>ĐỊA ĐIỂM TỔ CHỨC</Heading>

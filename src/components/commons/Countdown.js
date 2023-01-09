@@ -56,7 +56,7 @@ const Countdown = () => {
         </div>
         <button
           onClick={() => setShow(true)}
-          className="register-btn h-[57px] px-[30px] rounded-[8px] inline-flex items-center justify-center text-[20px] font-bold"
+          className="register-btn h-[57px] px-[30px] rounded-[8px] inline-flex items-center justify-center text-[20px] font-bold text-white"
         >
           ĐĂNG KÝ THAM GIA
         </button>
@@ -83,7 +83,7 @@ const Countdown = () => {
           </div>
           <button
             onClick={() => setShow(true)}
-            className="register-btn h-[40px] px-[20px] rounded-[8px] inline-flex items-center justify-center md:text-[20px] text-[14px] font-bold"
+            className="register-btn h-[40px] px-[20px] rounded-[8px] inline-flex items-center justify-center md:text-[20px] text-[14px] font-bold text-white"
           >
             ĐĂNG KÝ THAM GIA
           </button>
@@ -103,7 +103,7 @@ const Box = ({ children, type = "ngày", col }) => {
       <h4 className="text-black font-extrabold md:text-[40px] text-[28px] flex-1 leading-[1]">
         {children}
       </h4>
-      <span className="text-black text-[14px]">{type}</span>
+      <span className="text-black text-[14px] font-semibold">{type}</span>
     </div>
   );
 };
