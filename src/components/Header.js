@@ -17,50 +17,34 @@ export default function Header() {
           <img srcSet="/images/cbd-logo.png 2x" alt="" />
         </a>
         <div className={`nav-menu ${!!showNav ? "active" : ""}`}>
-          <Link
+          <a
             className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
-            to="hot-active"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={1000}
+            href="#hot-active"
             onClick={() => setShowNav(false)}
           >
             Hoạt động nổi bật
-          </Link>
-          <Link
+          </a>
+          <a
             className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
-            to="coach"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={1000}
+            href="#coach"
             onClick={() => setShowNav(false)}
           >
             Diễn giả
-          </Link>
-          <Link
+          </a>
+          <a
             className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
-            to="agenda"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={1000}
+            href="#agenda"
             onClick={() => setShowNav(false)}
           >
             Lịch trình
-          </Link>
-          <Link
+          </a>
+          <a
             className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
-            to="place"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={1000}
+            href="#place"
             onClick={() => setShowNav(false)}
           >
             Địa điểm
-          </Link>
+          </a>
           <a
             href="https://actioncoachcbd.com/"
             target="_blank"

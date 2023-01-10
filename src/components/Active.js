@@ -17,7 +17,7 @@ export default function Active() {
             reverse
             num2
             title='Chuyên đề "Transform Yourself - Chuyển hóa bản thân"'
-            img="/images/active-3.png"
+            img="/images/active-5.png"
             desc="Chia sẻ từ Nhà huấn luyện Doanh nghiệp của CBD Firm về tầm quan trọng cũng như cách thức để Chuyển hóa bản thân - Bước đệm quan trọng để Doanh nghiệp sẵn sàng cho những Mục tiêu năm 2023."
           ></ActiveItem>
           <ActiveItem
