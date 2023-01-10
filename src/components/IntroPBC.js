@@ -30,59 +30,23 @@ export default function IntroPBC() {
           </div>
           <div>
             <p className="mb-[20px]">
-              Kinh doanh mà KHÔNG LẬP KẾ HOẠCH là lập kế hoạch cho sự THẤT BẠI.
-              Lập KẾ HOẠCH mà không có THỰC THI thì tất cả chỉ là ẢO TƯỞNG.
+              Sau 5 kỳ PBC liên tiếp được tổ chức với Chủ đề liên quan tới Thực
+              thi xuất sắc, bước sang năm 2023, ActionCOACH CBD Firm đã sẵn sàng
+              với một Thông điệp hoàn toàn mới "2023 - THE YEAR OF
+              TRANSFORMATION".
             </p>
             <p className="mb-[20px]">
-              Đó chính là lý do mà ActionCOACH CBD Firm đã dành 4 kỳ Planning
-              Bootcamp - Lập kế hoạch hành động 90 ngày gần đây nhất cho Chủ đề
-              THỰC THI. Bởi có tới 90% Doanh nghiệp không thể đạt được mục tiêu
-              do khâu thực thi yếu kém.
+              Khởi động cho hành trình Transformation là Planning Bootcamp 27
+              với chủ đề chính "TRANSFORM YOURSELF - CHUYỂN HÓA BẢN THÂN" được
+              tổ chức vào 2 ngày 23, 24/03/2023 tại TP Hồ Chí Minh.
             </p>
-            <div className="mb-[15px]">
-              <div className="flex items-baseline gap-[10px]">
-                <span>
-                  <img srcSet="/icons/check-icon.png 2x" alt="" />
-                </span>
-                <p>
-                  PBC 22 tổ chức vào Tháng 12/2021 tại TP.HCM với Chủ đề "Thực
-                  thi xuất sắc".
-                </p>
-              </div>
-              <div className="flex items-baseline gap-[10px]">
-                <span>
-                  <img srcSet="/icons/check-icon.png 2x" alt="" />
-                </span>
-                <p>
-                  PBC 23 tổ chức vào Tháng 3/2022 tại TP.HCM với Chủ đề "Tư duy
-                  thực thi xuất sắc".
-                </p>
-              </div>
-              <div className="flex items-baseline gap-[10px]">
-                <span>
-                  <img srcSet="/icons/check-icon.png 2x" alt="" />
-                </span>
-                <p>
-                  PBC 24 tổ chức vào Tháng 6/2022 tại Hà Nội với Chủ đề "6 chìa
-                  khóa để thực thi xuất sắc".
-                </p>
-              </div>
-              <div className="flex items-baseline gap-[10px]">
-                <span>
-                  <img srcSet="/icons/check-icon.png 2x" alt="" />
-                </span>
-                <p>
-                  PBC 25 tổ chức vào Tháng 9/2022 tại TP.HCM với Chủ đề "Gắn kết
-                  đội ngũ để thực thi xuất sắc".
-                </p>
-              </div>
-            </div>
-            <p>
-              Và tại Chương trình Lập kế hoạch Hành động 90 ngày - Planning
-              Bootcamp 26 (PBC 26) do ActionCOACH CBD Firm tổ chức tại Thành phố
-              Quy Nhơn, Bình Định cũng sẽ tiếp tục tập trung vào vấn đề THỰC THI
-              với Chủ đề "VẬN HÀNH ĐỒNG BỘ ĐỂ THỰC THI XUẤT SẮC". Đây sẽ là
-              Chương trình Lập kế hoạch Hành động cuối cùng của năm 2022.
+            <p className="mb-[20px]">
+              Việc thành công hay thất bại của một doanh nghiệp phụ thuộc rất
+              lớn vào người lãnh đạo - người được coi là "linh hồn" của tổ chức.
+              Theo đó, bên cạnh việc làm giàu kinh nghiệm chuyên môn và duy trì
+              một trực giác tốt, các nhà lãnh đạo cùng toàn bộ đội ngũ quản lý
+              cấp cao cũng phải trang bị và cập nhật cho mình tư duy và thói
+              quen quản trị bài bản chứ không phải làm theo bản năng và cảm xúc.
             </p>
           </div>
         </div>

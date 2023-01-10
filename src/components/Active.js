@@ -9,29 +9,22 @@ export default function Active() {
         <div className="mt-[30px] md:mt-[50px] flex flex-col gap-y-[40px]">
           <ActiveItem
             num1
-            title="Hoạt động đi bộ buổi sáng & Miracle Morning"
-            img="/images/active-1.png"
-            desc="Đội ngũ Nhà huấn luyện Doanh nghiệp của CBD Firm cùng các Chủ doanh nghiệp & Đội ngũ tham gia hoạt động đi bộ buổi sáng & Miracle Morning."
+            title="Roundtable"
+            img="/images/active-2.png"
+            desc="RoundTable là phần chia sẻ mang tính chuyên sâu, thực chiến của các Nhà Huấn luyện Doanh nghiệp của CBD Firm và các Chủ doanh nghiệp đang là khách hàng của CBD Firm về các vấn đề mà nhiều Doanh nghiệp đang phải đối mặt."
           ></ActiveItem>
           <ActiveItem
             reverse
             num2
-            title="Hoạt động đi bộ buổi sáng & Miracle Morning"
-            img="/images/active-2.png"
-            desc="Đội ngũ Nhà huấn luyện Doanh nghiệp của CBD Firm cùng các Chủ doanh nghiệp & Đội ngũ tham gia hoạt động đi bộ buổi sáng & Miracle Morning."
+            title='Chuyên đề "Transform Yourself - Chuyển hóa bản thân"'
+            img="/images/active-3.png"
+            desc="Chia sẻ từ Nhà huấn luyện Doanh nghiệp của CBD Firm về tầm quan trọng cũng như cách thức để Chuyển hóa bản thân - Bước đệm quan trọng để Doanh nghiệp sẵn sàng cho những Mục tiêu năm 2023."
           ></ActiveItem>
           <ActiveItem
             num3
-            title="Hoạt động đi bộ buổi sáng & Miracle Morning"
-            img="/images/active-3.png"
-            desc="Đội ngũ Nhà huấn luyện Doanh nghiệp của CBD Firm cùng các Chủ doanh nghiệp & Đội ngũ tham gia hoạt động đi bộ buổi sáng & Miracle Morning."
-          ></ActiveItem>
-          <ActiveItem
-            reverse
-            num4
-            title="Hoạt động đi bộ buổi sáng & Miracle Morning"
+            title="Hoạt động chính"
             img="/images/active-4.png"
-            desc="Đội ngũ Nhà huấn luyện Doanh nghiệp của CBD Firm cùng các Chủ doanh nghiệp & Đội ngũ tham gia hoạt động đi bộ buổi sáng & Miracle Morning."
+            desc="Cập nhật BHAG & mục tiêu 10 năm cho doanh nghiệp. Cũng như xây dựng kế hoạch 90 ngày cho quý II/ 2023."
           ></ActiveItem>
         </div>
       </div>
