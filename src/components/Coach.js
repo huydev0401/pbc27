@@ -1,7 +1,22 @@
 import React from "react";
+import { usePopup } from "../contexts/popupContext";
 import Heading from "./commons/Heading";
 
 export default function Coach() {
+  const {
+    setShowPopupCoach1,
+    setShowPopupCoach2,
+    setShowPopupCoach3,
+    setShowPopupCoach4,
+    setShowPopupCoach5,
+    setShowPopupCoach6,
+    setShowPopupCoach7,
+    setShowPopupCoach8,
+    setShowPopupCoach9,
+    setShowPopupCoach10,
+    setShowPopupCoach11,
+    setShowPopupCoach12,
+  } = usePopup();
   return (
     <section
       id="coach"
@@ -13,76 +28,76 @@ export default function Coach() {
         </Heading>
         <div className="coach-list grid-cols-2 grid md:grid-cols-5 gap-[25px] mt-[50px]">
           <CoachItem
-            url="https://drive.google.com/file/d/1oAWj8D8q82necZrtvnUqODZ9KlBXWYbZ/view"
             img="/images/rita.png"
             nickname="rita"
             name="Tô Quý Ngọc Châu"
+            onClick={() => setShowPopupCoach1(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1L_XJgAE-2VqW8HGOvwGbdqAHYri0PMVQ/view"
             img="/images/leo.png"
             nickname="leo"
             name="Võ Thái Lâm"
+            onClick={() => setShowPopupCoach2(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1hwhMF9Da0Q5bsjr-_JQQBdWGuRUmY2pE/view"
             img="/images/kaka.png"
             nickname="kaka"
             name="Lê Ngọc Đăng"
+            onClick={() => setShowPopupCoach3(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/18mAlnXaWVPpYuhgZXo76tljAd2lj17M3/view?usp=sharing"
             img="/images/tony.png"
             nickname="tony"
             name="Thái Sơn"
+            onClick={() => setShowPopupCoach4(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/10Qtd7MHwmAoMfqAi5hCnKxxa_tiVkWB2/view"
             img="/images/tamy.png"
             nickname="tamy"
             name="Ngọc Thảo"
+            onClick={() => setShowPopupCoach5(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1diyqtdgmeUCd8f_wcXUEVmE5Pf6MGCxg/view"
             img="/images/david.png"
             nickname="david"
             name="Trần Xuân Hoà"
+            onClick={() => setShowPopupCoach6(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1FNtwGPObZJ2uUkzuwQCEfE36UBmwYvg3/view?usp=sharing"
             img="/images/emmy.png"
             nickname="emmy"
             name="Lê Thị Hải"
+            onClick={() => setShowPopupCoach7(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1Br-JoQxY9Un3-WCSiUN9-AttQGT37kI1/vie"
             img="/images/martin.png"
             nickname="martin"
             name="Hải Đăng"
+            onClick={() => setShowPopupCoach8(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1MJHKSrEnqYzJ-E2FrearkS8RYX3sASJ6/view"
             img="/images/neo.png"
             nickname="neo"
             name="Nguyễn Đình Bảo"
+            onClick={() => setShowPopupCoach9(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1yTaJTPEWtXqKZC61XCfWNCKt7XWo_JWa/view"
             img="/images/theo.png"
             nickname="theo"
             name="Vũ Bá Thế"
+            onClick={() => setShowPopupCoach10(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/11kNVg7lGnBq2-8LUskFyqNMtioYNXxr1/view"
             img="/images/vova.png"
             nickname="vova"
             name="Lê Việt Chuẩn"
+            onClick={() => setShowPopupCoach11(true)}
           ></CoachItem>
           <CoachItem
-            url="https://drive.google.com/file/d/1Hm8Jt9BHuI9VonjUnsIqAEn1Cw-UCu9j/view"
             img="/images/tracy.png"
             nickname="tracy"
             name="Thanh Hà"
+            onClick={() => setShowPopupCoach12(true)}
           ></CoachItem>
         </div>
       </div>
@@ -90,10 +105,10 @@ export default function Coach() {
   );
 }
 
-const CoachItem = ({ url, img, nickname, name, ...props }) => {
+const CoachItem = ({ img, nickname, name, onClick, ...props }) => {
   return (
     // eslint-disable-next-line react/jsx-no-target-blank
-    <a href={url} {...props} target="_blank">
+    <div className="cursor-pointer" onClick={onClick} {...props}>
       <div className="mb-[20px]">
         <img className="object-cover w-full h-full" src={img} alt="" />
       </div>
@@ -104,6 +119,6 @@ const CoachItem = ({ url, img, nickname, name, ...props }) => {
         </p>
         <p className="text-[13px] font-semibold text-white">Busines COACH</p>
       </div>
-    </a>
+    </div>
   );
 };

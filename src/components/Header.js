@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -17,7 +18,18 @@ export default function Header() {
         </a>
         <div className={`nav-menu ${!!showNav ? "active" : ""}`}>
           <Link
-            className="font-medium text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
+            className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
+            to="hot-active"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={1000}
+            onClick={() => setShowNav(false)}
+          >
+            Hoạt động nổi bật
+          </Link>
+          <Link
+            className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
             to="coach"
             spy={true}
             smooth={true}
@@ -28,7 +40,7 @@ export default function Header() {
             Diễn giả
           </Link>
           <Link
-            className="font-medium text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
+            className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
             to="agenda"
             spy={true}
             smooth={true}
@@ -39,27 +51,25 @@ export default function Header() {
             Lịch trình
           </Link>
           <Link
-            className="font-medium text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
-            to="ticket"
+            className="font-medium capitalize text-white hover:text-darkBlue transition-all duration-300 cursor-pointer mr-[15px]"
+            to="place"
             spy={true}
             smooth={true}
             offset={-10}
             duration={1000}
             onClick={() => setShowNav(false)}
           >
-            Mua vé
-          </Link>
-          <Link
-            className="font-medium text-white transition-all duration-300 cursor-pointer hover:text-darkBlue"
-            to="place"
-            spy={true}
-            smooth={true}
-            offset={-20}
-            duration={1000}
-            onClick={() => setShowNav(false)}
-          >
             Địa điểm
           </Link>
+          <a
+            href="https://actioncoachcbd.com/"
+            target="_blank"
+            className="font-medium text-white capitalize transition-all duration-300 cursor-pointer hover:text-darkBlue"
+            onClick={() => setShowNav(false)}
+          >
+            Giới thiệu về <br className="block md:hidden" /> ACTIONCOACH CBD
+            FIRM
+          </a>
         </div>
         <div className="hamburger" onClick={handleToggleHamburger}>
           {!!showNav ? (

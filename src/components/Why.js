@@ -27,7 +27,9 @@ export default function Why() {
             Học hỏi kinh nghiệm từ cộng đồng doanh chủ của ActionCOACH CBD firm
           </WhyItem>
           <WhyItem why="Lý do 7" blue2>
-            Transform Yourself - Chuyển hóa bản thân
+            <p className="txt-gradient">
+              Transform Yourself - Chuyển hóa bản thân
+            </p>
           </WhyItem>
         </div>
       </div>

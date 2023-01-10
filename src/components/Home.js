@@ -20,6 +20,18 @@ import Ticket from "./Ticket";
 import Why from "./Why";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CoachPopup1 from "./commons/CoachPopup1";
+import CoachPopup2 from "./commons/CoachPopup2";
+import CoachPopup3 from "./commons/CoachPopup3";
+import CoachPopup4 from "./commons/CoachPopup4";
+import CoachPopup5 from "./commons/CoachPopup5";
+import CoachPopup6 from "./commons/CoachPopup6";
+import CoachPopup7 from "./commons/CoachPopup7";
+import CoachPopup8 from "./commons/CoachPopup8";
+import CoachPopup9 from "./commons/CoachPopup9";
+import CoachPopup10 from "./commons/CoachPopup10";
+import CoachPopup11 from "./commons/CoachPopup11";
+import CoachPopup12 from "./commons/CoachPopup12";
 
 export default function Home() {
   useEffect(() => {
@@ -46,6 +58,18 @@ export default function Home() {
         <PopupMember></PopupMember>
         <PopupStandard></PopupStandard>
         <VideoPopup></VideoPopup>
+        <CoachPopup1></CoachPopup1>
+        <CoachPopup2></CoachPopup2>
+        <CoachPopup3></CoachPopup3>
+        <CoachPopup4></CoachPopup4>
+        <CoachPopup5></CoachPopup5>
+        <CoachPopup6></CoachPopup6>
+        <CoachPopup7></CoachPopup7>
+        <CoachPopup8></CoachPopup8>
+        <CoachPopup9></CoachPopup9>
+        <CoachPopup10></CoachPopup10>
+        <CoachPopup11></CoachPopup11>
+        <CoachPopup12></CoachPopup12>
       </PopupProvider>
     </>
   );

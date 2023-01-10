@@ -13,14 +13,16 @@ export default function Scale() {
         <h2 className="text-[28px] md:text-[40px] font-extrabold text-center mb-[30px] md:mb-[20px]">
           QUY MÔ TỔ CHỨC
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] md:gap-x-[100px] relative z-10">
-          <ScaleItem num="03">ngày lập kế hoạch</ScaleItem>
+        <div
+          id="hot-active"
+          className="grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-x-[100px] relative z-10"
+        >
+          <ScaleItem num="02">ngày lập kế hoạch</ScaleItem>
           <ScaleItem num="200+">chủ doanh nghiệp tham gia</ScaleItem>
           <ScaleItem num="12+">
             nhà huấn luyện doanh nghiệp <br className="hidden md:block" /> hàng
             đầu Việt Nam
           </ScaleItem>
-          <ScaleItem num="gala">Dinner</ScaleItem>
         </div>
       </div>
       <div className="grid grid-cols-6 scale-list">

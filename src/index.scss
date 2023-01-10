@@ -255,6 +255,14 @@
   }
 }
 
+.txt-gradient {
+  display: inline-block;
+  background-image: linear-gradient(90.11deg, #f84978 0.08%, #524cfa 96.18%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .video {
   &-popup {
     display: flex;
