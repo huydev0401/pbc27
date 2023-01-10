@@ -83,7 +83,7 @@ const PopupStandard = () => {
   return (
     <div>
       {showStandard && (
-        <div className="bg-[rgba(0,0,0,0.3)] fixed inset-0 z-[9999999] py-[20px]">
+        <div className="bg-[rgba(0,0,0,0.8)] fixed inset-0 z-[9999999] py-[20px]">
           <div className="flex flex-col md:flex-row w-[340px] md:w-[930px] mx-auto h-[610px] md:h-[630px] items-center bg-white rounded-[8px]">
             <div className="h-[100%] w-[400px] flex-shrink-0 hidden md:block">
               <img
