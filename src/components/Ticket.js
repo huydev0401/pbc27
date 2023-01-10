@@ -179,7 +179,7 @@ export default function Ticket() {
             * Giá trên đã bao gồm{" "}
             <span className="text-[#53F9DA]">VAT & Tài liệu</span> <br />* Đăng
             ký và thanh toán trước ngày{" "}
-            <span className="text-[#53F9DA]">30/11/2022</span>
+            <span className="text-[#53F9DA]">10/03/2023</span>
           </p>
           <div className="h-[59px] w-[300px] md:w-[370px] border border-lightBlue1 rounded-[20px] mx-auto inline-flex items-center justify-center text-[18px] md:text-[24px] font-bold mb-[25px] text-white uppercase">
             Thông tin thanh toán
@@ -211,7 +211,7 @@ export default function Ticket() {
             <p className="text-white">
               Lưu ý: <br />* Nội dung thanh toán:{" "}
               <span className="text-[#FFA678]">
-                tencongty/tennguoithamdu_Số điện thoại_PBC26
+                tencongty/tennguoithamdu_Số điện thoại_PBC27
               </span>{" "}
               <br />
               * Không chuyển sang kỳ PBC tiếp theo <br />* Không chuyển nhượng

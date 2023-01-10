@@ -36,7 +36,7 @@ export default function Scale() {
           <img src="/images/scale-3.png" alt="" />
         </div>
         <div className="scale-item">
-          <img src="/images/scale-ex.png" alt="" />
+          <img src="/images/scale-ex2.png" alt="" />
         </div>
         <div className="scale-item">
           <img src="/images/scale-4.png" alt="" />
