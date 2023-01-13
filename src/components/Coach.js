@@ -117,7 +117,7 @@ const CoachItem = ({ img, nickname, name, onClick, ...props }) => {
           <span className="uppercase">{nickname}</span>{" "}
           <span className="capitalize">{name}</span>
         </p>
-        <p className="text-[13px] font-semibold text-white">Busines COACH</p>
+        <p className="text-[13px] font-semibold text-white">Business COACH</p>
       </div>
     </div>
   );
