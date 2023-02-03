@@ -188,19 +188,19 @@ export default function Ticket() {
             <p>
               Số tài khoản: <br />
               <span className="text-lightBlue1 text-[16px] md:text-[24px] font-bold">
-                2000 1485 1240 597
+                007 100 122 8481
               </span>
             </p>
             <p>
               Tại: <br />
               <span className="text-lightBlue1 text-[16px] md:text-[24px] font-bold">
-                Eximbank - CN HCM
+                Vietcombank - Chi nhánh Hồ Chí Minh
               </span>
             </p>
             <p>
               Chủ tài khoản: <br />
-              <span className="text-lightBlue1 text-[16px] md:text-[24px] font-bold">
-                CÔNG TY TNHH CENTRAL BUSINESS DEVELOPMENT
+              <span className="text-lightBlue1 text-[16px] md:text-[24px] font-bold uppercase">
+                Công Ty Cổ Phần Smart Marketing Communication
               </span>
             </p>
           </div>
