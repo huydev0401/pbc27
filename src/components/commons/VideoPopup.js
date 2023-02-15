@@ -12,8 +12,8 @@ export default function VideoPopup() {
             <div className="wrapper">
               <div className="frame">
                 <iframe
-                  src="https://www.youtube.com/embed/T1f-AXgc-Us"
-                  title="Tổ chức sự kiện Year-End Party | WOW Multimedia"
+                  src="https://www.youtube.com/embed/LwnGx3ADkLA"
+                  title="PLANNING BOOTCAMP 26 | Khóa huấn luyện lập kế hoạch hành động"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                   allowfullscreen
