@@ -103,7 +103,7 @@ export default function Coach() {
           <CoachItem
             img="/images/richard.png"
             nickname="richard"
-            name="Hoàng V Tình"
+            name="Hoàng Văn Tình"
             onClick={() => setShowPopupCoach13(true)}
           ></CoachItem>
         </div>
