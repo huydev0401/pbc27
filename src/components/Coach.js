@@ -16,6 +16,7 @@ export default function Coach() {
     setShowPopupCoach10,
     setShowPopupCoach11,
     setShowPopupCoach12,
+    setShowPopupCoach13,
   } = usePopup();
   return (
     <section
@@ -98,6 +99,12 @@ export default function Coach() {
             nickname="tracy"
             name="Thanh Hà"
             onClick={() => setShowPopupCoach12(true)}
+          ></CoachItem>
+          <CoachItem
+            img="/images/richard.png"
+            nickname="richard"
+            name="Hoàng V Tình"
+            onClick={() => setShowPopupCoach13(true)}
           ></CoachItem>
         </div>
       </div>

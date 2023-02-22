@@ -21,6 +21,7 @@ function PopupProvider(props) {
   const [showPopupCoach10, setShowPopupCoach10] = useState(false);
   const [showPopupCoach11, setShowPopupCoach11] = useState(false);
   const [showPopupCoach12, setShowPopupCoach12] = useState(false);
+  const [showPopupCoach13, setShowPopupCoach13] = useState(false);
   const value = {
     show,
     setShow,
@@ -58,6 +59,8 @@ function PopupProvider(props) {
     setShowPopupCoach11,
     showPopupCoach12,
     setShowPopupCoach12,
+    showPopupCoach13,
+    setShowPopupCoach13,
   };
   return (
     <PopupContext.Provider value={value} {...props}></PopupContext.Provider>

@@ -32,6 +32,7 @@ import CoachPopup9 from "./commons/CoachPopup9";
 import CoachPopup10 from "./commons/CoachPopup10";
 import CoachPopup11 from "./commons/CoachPopup11";
 import CoachPopup12 from "./commons/CoachPopup12";
+import CoachPopup13 from "./commons/CoachPopup13";
 
 export default function Home() {
   useEffect(() => {
@@ -70,6 +71,7 @@ export default function Home() {
         <CoachPopup10></CoachPopup10>
         <CoachPopup11></CoachPopup11>
         <CoachPopup12></CoachPopup12>
+        <CoachPopup13></CoachPopup13>
       </PopupProvider>
     </>
   );
