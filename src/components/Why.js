@@ -5,7 +5,7 @@ export default function Why() {
   return (
     <section className="bg-black py-sectionMB md:py-section">
       <div className="page-container">
-        <Heading>7 LÝ DO ĐỂ CHỦ DOANH NGHIỆP & ĐỘI NGŨ THAM DỰ PBC 27</Heading>
+        <Heading>5 LÝ DO ĐỂ CHỦ DOANH NGHIỆP & ĐỘI NGŨ THAM DỰ PBC 27</Heading>
         <div className="border border-lightBlue1 mt-[40px]">
           <WhyItem why="Lý do 1" blue2>
             <p className="txt-gradient">
