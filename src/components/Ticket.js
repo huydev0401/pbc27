@@ -66,12 +66,12 @@ export default function Ticket() {
                     </span>
                     <span className="desc">Hội trường</span>
                   </div>
-                  <div className="item">
+                  {/* <div className="item">
                     <span className="img">
                       <img srcSet="/icons/ticket-icon.png 2x" alt="" />
                     </span>
                     <span className="desc">Gala dinner</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="btn" onClick={() => setShowGold(true)}>
@@ -111,12 +111,12 @@ export default function Ticket() {
                     </span>
                     <span className="desc">Hội trường</span>
                   </div>
-                  <div className="item">
+                  {/* <div className="item">
                     <span className="img">
                       <img srcSet="/icons/ticket-icon.png 2x" alt="" />
                     </span>
                     <span className="desc">Gala dinner</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="btn" onClick={() => setShowMember(true)}>
@@ -160,12 +160,12 @@ export default function Ticket() {
                     </span>
                     <span className="desc">Hội trường</span>
                   </div>
-                  <div className="item">
+                  {/* <div className="item">
                     <span className="img">
                       <img srcSet="/icons/ticket-icon.png 2x" alt="" />
                     </span>
                     <span className="desc">Gala dinner</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="btn" onClick={() => setShowStandard(true)}>
