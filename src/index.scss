@@ -328,6 +328,39 @@
   }
 }
 
+.agenda {
+  &-btn {
+    border-radius: 6px;
+    height: 65px;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.2;
+      color: white;
+    }
+    p {
+      font-weight: 700;
+      color: white;
+    }
+  }
+  &-btn.--day1 {
+    background-image: linear-gradient(to right, #4eb9db, #014e95) !important;
+    border: 1px solid #097ba5;
+    box-shadow: 0px 0px 14px #349cf1;
+  }
+  &-btn.--day2 {
+    background-image: linear-gradient(to right, #f56c41, #d8004a) !important;
+    border: 1px solid #f56c41;
+    box-shadow: 0px 0px 17px 2px #d8004a;
+  }
+}
+
 .discovery-text {
   font-size: 15px;
   font-weight: 700;
